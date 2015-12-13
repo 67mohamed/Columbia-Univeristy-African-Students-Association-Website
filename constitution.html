@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Constitution</title>
+
+        
+
+        <script type="text/javascript" src="js/pdfobject.js"></script>
+        <script type="text/javascript">
+          window.onload = function (){
+            var success = new PDFObject({ url: "src/constitution.pdf" }).embed();
+          };
+        </script>
+
+
+    </head>
+    <body>
+        <p>It appears you don't have Adobe Reader or PDF support in this web
+                    browser. <a href="src/constitution.pdf">Click here to download the PDF</a></p>
+    </body>
+</html>
